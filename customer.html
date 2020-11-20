@@ -77,7 +77,7 @@ require_once('connection.php');
             <td><?php echo $row['name']; ?></td>
             <td><?php echo $row['email']; ?></td>
             <td><?php echo $row['balance']; ?></td>
-            <td><button type="button" id=<?php echo $row['id']; ?> class="btn btn-primary" onclick= "trans(<?php echo $row['id'];?>)">View</i></button></td>
+            <td><button type="button" id="<?php echo $row['id']; ?>" class="btn btn-primary" onclick= "trans(<?php echo $row['id'];?>)">View</i></button></td>
             <script>
               function trans(tid)
               {
